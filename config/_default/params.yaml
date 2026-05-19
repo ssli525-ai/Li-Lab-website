@@ -16,7 +16,11 @@ appearance:
     background: '#FFFFFF'     
     surface: '#FAFAF7'        
     text: '#0B2545'           
-    muted: '#4A5468'          
+    muted: '#4A5468'
+font:
+  heading: 'Fraunces'
+  body: 'IBM Plex Sans'
+  mono: 'IBM Plex Mono'
 
 # SEO
 
