@@ -6,10 +6,17 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night:
-  font: native
-  font_size: L
+  appearance:
+  mode: light
+  color: custom
+  custom:
+    primary: '#0B2545'        
+    primary_dark: '#1E3A66'   
+    accent: '#7E9B4D'         
+    background: '#FFFFFF'     
+    surface: '#FAFAF7'        
+    text: '#0B2545'           
+    muted: '#4A5468'          
 
 # SEO
 
