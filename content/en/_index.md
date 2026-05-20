@@ -3,7 +3,6 @@
 title: ""
 date: 2022-10-24
 type: landing
-
 sections:
   - block: hero
     content:
@@ -14,9 +13,8 @@ sections:
         filename: welcome.jpg
       text: |
         <br>
-        
-        The **Sisi Li Research Group** focusing on RNA homeostasis immunity, we integrate AI and structural biology to engineer functional RNAs and develop broad-spectrum antiviral strategies.
-  
+        The **Sisi Li Research Group** at Shenzhen University focuses on RNA homeostasis immunity. We integrate AI and structural biology to engineer functional RNAs and develop broad-spectrum antiviral strategies.
+
   - block: collection
     content:
       title: Latest News
@@ -35,20 +33,20 @@ sections:
     design:
       view: card
       columns: '1'
-  
+
   - block: markdown
     content:
       title:
       subtitle: ''
-      text: 
-		<h2 style="color:white; text-align:center;">
-	     Decoding RNA immunity.
-	    </h2>
+      text: |
+        <h2 style="color:white; text-align:center;">
+          Decoding RNA immunity.
+        </h2>
     design:
       columns: '1'
       background:
-        image: 
-          filename: coders.jpg
+        image:
+          filename: coders.png
           filters:
             brightness: 1
           parallax: false
