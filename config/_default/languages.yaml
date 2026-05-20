@@ -15,26 +15,6 @@ zh:
   languageName: 中文
   weight: 2
   contentDir: content/zh
-  title: 张实验室
+  title: 李思思实验室
   params:
-    description: 清华大学 RNA 结构生物学实验室
-  menu:
-    main:
-      - name: 首页
-        url: '/zh/'
-        weight: 1
-      - name: 研究方向
-        url: '/zh/research/'
-        weight: 2
-      - name: 学术成果
-        url: '/zh/publication/'
-        weight: 3
-      - name: 团队成员
-        url: '/zh/people/'
-        weight: 4
-      - name: 学术活动
-        url: '/zh/event/'
-        weight: 5
-      - name: 联系
-        url: '/zh/#contact'
-        weight: 6
+    description: 深圳大学 RNA免疫实验室
