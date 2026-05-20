@@ -8,14 +8,14 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
+        Sisi Li
         Research Group
       image:
         filename: welcome.jpg
       text: |
         <br>
+        The Li lab at Shenzhen University focusing on RNA homeostasis immunity, we integrate AI and structural biology to engineer functional RNAs and develop broad-spectrum antiviral strategies.
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
   
   - block: collection
     content:
@@ -41,6 +41,9 @@ sections:
       title:
       subtitle: ''
       text:
+        <h2 style="color:white; text-align:center;">
+          Decoding the RNA immunity.
+        </h2>
     design:
       columns: '1'
       background:
@@ -53,12 +56,12 @@ sections:
           size: cover
           text_color_light: true
       spacing:
-        padding: ['20px', '0', '20px', '0']
+        padding: ['80px', '0', '80px', '0']
       css_class: fullscreen
 
   - block: collection
     content:
-      title: Latest Preprints
+      title: Recent Publications
       text: ""
       count: 5
       filters:
