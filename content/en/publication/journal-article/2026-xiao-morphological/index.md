@@ -12,11 +12,13 @@ authors:
   - Mu-Peng Luo
   - Shou-Guo Wang
   - admin
+  - Tong Shu
+  - Xueji Zhang
 date: "2026-01-01"
 doi: ""
 
 publication_types: ["article-journal"]
-publication: "*ACS Applied Materials & Interfaces* (2026)"
+publication: "*ACS Applied Materials & Interfaces*, 18(19), 27946-27956 (2026)"
 publication_short: "*ACS Appl. Mater. Interfaces*"
 
 abstract: ""

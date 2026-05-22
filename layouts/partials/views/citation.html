@@ -1,0 +1,51 @@
+{{ $item := .item }}
+{{ $index := .index }}
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <span style="font-weight: bold; margin-right: 10px;">{{ add $index 1 }}.</span>
+
+  {{/* Manual Author Rendering to show ALL authors in original order */}}
+  <span class="article-metadata li-cite-author">
+    {{ range $i, $author := $item.Params.authors }}
+      {{ if gt $i 0 }}, {{ end }}
+      {{ $author_page := site.GetPage (printf "/authors/%s" $author) }}
+      {{ if $author_page }}
+        {{- $highlight_name := $author_page.Params.highlight_name | default false -}}
+        <span {{ if $highlight_name }}class="author-highlighted"{{end}}>
+          <a href="{{ $author_page.RelPermalink }}">{{ $author_page.Title }}</a>
+        </span>
+      {{ else }}
+        {{ $author }}
+      {{ end }}
+    {{ end }}
+  </span>
+
+  {{/* APA Style */}}
+  {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
+  <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>.
+  {{ if $item.Params.publication }}
+    {{- $item.Params.publication | markdownify -}}.
+  {{ else if $item.Params.publication_short }}
+    {{- $item.Params.publication_short | markdownify -}}.
+  {{ end }}
+  <p>{{ partial "page_links" (dict "page" $item "is_list" 1) }}</p>
+
+  {{/* MLA Style */}}
+  {{ else }}
+  <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>.
+  {{ if $item.Params.publication }}
+    {{- $item.Params.publication | markdownify -}},
+  {{ else if $item.Params.publication_short }}
+    {{- $item.Params.publication_short | markdownify -}},
+  {{ end }}
+  {{- $item.Date.Format "2006" -}}.
+
+  {{ if $has_attachments }}
+  <div class="btn-links">
+    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+  </div>
+  {{ end }}
+
+  {{ end }}
+</div>
