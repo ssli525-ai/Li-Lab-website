@@ -17,7 +17,7 @@ date: "2023-01-01"
 doi: ""
 
 publication_types: ["article-journal"]
-publication: "*Dev Cell* (2023)"
+publication: "*Developmental Cell*, 58(13), 1206-1217 (2023)"
 publication_short: "*Dev. Cell*"
 
 abstract: ""
