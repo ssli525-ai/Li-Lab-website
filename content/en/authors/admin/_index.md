@@ -1,14 +1,17 @@
 ---
 # Display name
-title: Sisi Li
+title: "Sisi Li"
 
 # Full Name (SEO-friendly)
-first_name: Sisi
-last_name: Li
+first_name: "Sisi"
+last_name: "Li"
 
 # Username (this should match the folder name and is referenced in publications)
 authors:
   - admin
+
+# IMPORTANT: Keep the URL slug as 'admin' to prevent the profile content from disappearing
+slug: "admin"
 
 # Is this the primary user of the site?
 superuser: true
