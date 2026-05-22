@@ -11,6 +11,10 @@ authors:
   - Jamie Ho
   - Bryan Stender
   - Amander T Clark
+  - Alma L Burlingame
+  - Lucia Daxinger
+  - Dinshaw J Patel
+  - Steven E Jacobsen
 date: "2016-01-01"
 doi: ""
 

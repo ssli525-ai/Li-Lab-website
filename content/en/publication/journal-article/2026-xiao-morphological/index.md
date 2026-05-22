@@ -12,6 +12,8 @@ authors:
   - Mu-Peng Luo
   - Shou-Guo Wang
   - admin
+  - Tong Shu
+  - Xueji Zhang
 date: "2026-01-01"
 doi: ""
 
