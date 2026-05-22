@@ -1,54 +1,71 @@
 ---
-title: Tour
+title: 实验室简介
 date: 2022-10-24
-
 type: landing
-
 sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
-        content: Take a look at what we're working on...
+
+      # ============ Slide 1: Welcome ============
+      - title: 欢迎来到李思思课题组
+        content: '深圳大学 RNA-蛋白质识别结构生物学研究室。'
         align: center
-        background:
-          image:
-            filename: coders.jpg
-            filters:
-              brightness: 0.7
-          position: right
-          color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
-        align: left
-        background:
-          image:
-            filename: contact.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
-        align: right
         background:
           image:
             filename: welcome.jpg
             filters:
+              brightness: 0.45
+          position: center
+          color: '#0B2545'
+
+      # ============ Slide 2: Research Focus ============
+      - title: 蛋白质如何阅读 RNA 的语言
+        content: |
+          我们结合冷冻电镜、生物化学和细胞实验，深入剖析 RNA 结合蛋白如何识别特定转录本并塑造基因表达。
+        align: left
+        background:
+          image:
+            filename: coders.jpg
+            filters:
+              brightness: 0.35
+          position: center
+          color: '#1E3A66'
+
+      # ============ Slide 3: Lab Culture ============
+      - title: 协作共进的科研社区
+        content: |
+          我们重视好奇心、严谨性和导师制——汇聚了来自生物、化学和计算领域的学生、博士后和访问学者。
+        align: right
+        background:
+          image:
+            filename: contact.jpg
+            filters:
               brightness: 0.5
           position: center
-          color: '#333'
+          color: '#3D4A6B'
+
+      # ============ Slide 4: Join Us (with CTA button) ============
+      - title: 加入我们
+        content: |
+          我们欢迎对 RNA 生物学和结构机制感兴趣的优秀研究生、博士后和本科生加入。
+        align: center
+        background:
+          image:
+            filename: welcome.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#0B2545'
         link:
           icon: graduation-cap
           icon_pack: fas
-          text: Join Us
+          text: 联系我们
           url: ../contact/
+
     design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
       is_fullscreen: true
-      # Automatically transition through slides?
-      loop: false
-      # Duration of transition between slides (in ms)
-      interval: 2000
+      loop: false           # true 会自动循环播放
+      interval: 5000        # 切换间隔
 ---

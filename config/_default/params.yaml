@@ -1,29 +1,10 @@
-# SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
 # Appearance
-
 appearance:
-  appearance:
-  mode: light
-  color: custom
-  custom:
-    primary: '#0B2545'        
-    primary_dark: '#1E3A66'   
-    accent: '#7E9B4D'         
-    background: '#FFFFFF'     
-    surface: '#FAFAF7'        
-    text: '#0B2545'           
-    muted: '#4A5468'
-font:
-  heading: 'Fraunces'
-  body: 'IBM Plex Sans'
-  mono: 'IBM Plex Mono'
+  mode: system
+  theme_day: minimal
+  theme_night: minimal
 
 # SEO
-
 marketing:
   seo:
     site_type: Organization
@@ -41,19 +22,16 @@ marketing:
     baidu: ''
 
 # Site header
-
 header:
   navbar:
     enable: true
     align: r
     show_logo: true
-    show_language: false
+    show_language: true
     show_day_night: true
-    show_search: true
     highlight_active_link: false
 
 # Site footer
-
 footer:
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
@@ -64,14 +42,12 @@ footer:
       allow_commercial: false
 
 # Localization
-
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
   address_format: en-us
 
 # Site features
-
 features:
   syntax_highlighter:
     enable: false
@@ -114,7 +90,6 @@ features:
     zoom: 15
 
 # Extensions
-
 extensions:
   decap_cms:
     branch: main
@@ -123,7 +98,6 @@ extensions:
     enable: true
 
 # Citation style
-
 publications:
   date_format: January 2006
   citation_style: apa
