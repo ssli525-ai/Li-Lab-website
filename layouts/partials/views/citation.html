@@ -23,7 +23,6 @@
 
   {{/* APA Style */}}
   {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
-  ({{- $item.Date.Format "2006" -}}).
   <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>.
   {{ if $item.Params.publication }}
     {{- $item.Params.publication | markdownify -}}.
