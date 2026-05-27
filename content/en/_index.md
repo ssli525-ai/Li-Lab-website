@@ -39,14 +39,14 @@ sections:
       title:
       subtitle: ''
       text: |
-        <h2 style="color:white; text-align:center;">
-          Decoding RNA immunity.
+        <h2 style="color:white; text-align:center; font-weight:bold; font-size:36px;">
+          Decoding RNA immunity
         </h2>
     design:
       columns: '1'
       background:
         image:
-          filename: coders.png
+          filename: coders.jpg
           filters:
             brightness: 1
           parallax: false
@@ -54,7 +54,7 @@ sections:
           size: cover
           text_color_light: true
       spacing:
-        padding: ['80px', '0', '80px', '0']
+        padding: ['300px', '0', '300px', '0']
       css_class: fullscreen
 
   - block: collection
@@ -65,9 +65,26 @@ sections:
       filters:
         folders:
           - publication
-        publication_type: 'article'
+        publication_type: ''
     design:
       view: citation
+      columns: '1'
+
+  - block: collection
+    content:
+      title: Recent Events
+      subtitle: ""
+      text: ""
+      count: 3
+      filters:
+        folders:
+          - event
+        exclude_featured: false
+      offset: 0
+      order: desc
+      page_type: event
+    design:
+      view: compact
       columns: '1'
 
   - block: markdown

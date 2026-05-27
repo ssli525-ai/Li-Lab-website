@@ -1,15 +1,17 @@
 ---
----
 # Display name
-title: Sisi Li
+title: "Sisi Li"
 
 # Full Name (SEO-friendly)
-first_name: Sisi
-last_name: Li
+first_name: "Sisi"
+last_name: "Li"
 
 # Username (this should match the folder name and is referenced in publications)
 authors:
   - admin
+
+# IMPORTANT: Keep the URL slug as 'admin' to prevent the profile content from disappearing
+slug: "admin"
 
 # Is this the primary user of the site?
 superuser: true
@@ -52,23 +54,21 @@ education:
       year: '2007-2012'
 
 # Social/Academic networking
-# Icons available: envelope, twitter, instagram, linkedin, github, google-scholar, orcid, researchgate, etc.
 social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:liss@szu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=jtNeuDsAAAAJ&hl=en                              
+    link: https://scholar.google.com/citations?user=jtNeuDsAAAAJ&hl=en
   - icon: orcid
     icon_pack: ai
-    link: https://orcid.org/my-orcid?orcid=0000-0002-7290-8128                             
+    link: https://orcid.org/my-orcid?orcid=0000-0002-7290-8128
   - icon: researchgate
     icon_pack: ai
-    link: ''                              # 可选
+    link: ''
 
 # Author's groups/teams/organizations
-# Set this to `Principal Investigators` (or whatever group name is configured in params.yaml)
 user_groups:
   - Principal Investigators
 ---
