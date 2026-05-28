@@ -70,6 +70,23 @@ sections:
       view: citation
       columns: '1'
 
+  - block: collection
+    content:
+      title: Recent Events
+      subtitle: ""
+      text: ""
+      count: 3
+      filters:
+        folders:
+          - event
+        exclude_featured: false
+      offset: 0
+      order: desc
+      page_type: event
+    design:
+      view: compact
+      columns: '1'
+
   - block: markdown
     content:
       title:

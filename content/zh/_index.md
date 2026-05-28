@@ -71,6 +71,23 @@ sections:
       view: citation
       columns: '1'
 
+  - block: collection
+    content:
+      title: 近期活动
+      subtitle: ""
+      text: ""
+      count: 3
+      filters:
+        folders:
+          - event
+        exclude_featured: false
+      offset: 0
+      order: desc
+      page_type: event
+    design:
+      view: compact
+      columns: '1'
+
   - block: markdown
     content:
       title:
