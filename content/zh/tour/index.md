@@ -19,10 +19,10 @@ sections:
           position: center
           color: '#0B2545'
 
-      # ============ Slide 2: Research Focus ============
-      - title: 蛋白质如何阅读 RNA 的语言
+      # ============ Slide 2: Mechanisms ============
+      - title: RNA转录后稳态机制
         content: |
-          我们结合冷冻电镜、生物化学和细胞实验，深入剖析 RNA 结合蛋白如何识别特定转录本并塑造基因表达。
+          我们的实验室致力于理解控制RNA转录后调节和细胞稳态的基本机制。我们专注于RNA加工、修饰、降解和翻译的动态调节，并研究这些过程如何在生理和应激条件下协调以维持细胞功能...
         align: left
         background:
           image:
@@ -31,21 +31,49 @@ sections:
               brightness: 0.35
           position: center
           color: '#1E3A66'
+        link:
+          icon: book-open
+          icon_pack: fas
+          text: 了解更多
+          url: ../research/rna-homeostasis/
 
-      # ============ Slide 3: Lab Culture ============
-      - title: 协作共进的科研社区
+      # ============ Slide 3: Immunity ============
+      - title: RNA稳态与免疫
         content: |
-          我们重视好奇心、严谨性和导师制——汇聚了来自生物、化学和计算领域的学生、博士后和访问学者。
+          我们对RNA稳态在先天免疫和炎症反应中的作用特别感兴趣，重点是感染期间宿主对病毒RNA的识别和调节。我们的研究重点是干扰素刺激基因（ISGs）、RNA感知途径以及抗病毒免疫反应背后的结构机制...
         align: right
         background:
           image:
-            filename: contact.jpg
+            filename: coders.jpg
             filters:
               brightness: 0.5
           position: center
           color: '#3D4A6B'
+        link:
+          icon: book-open
+          icon_pack: fas
+          text: 了解更多
+          url: ../research/rna-immunity/
 
-      # ============ Slide 4: Join Us (with CTA button) ============
+      # ============ Slide 4: AI ============
+      - title: AI驱动的RNA合成生物学
+        content: |
+          我们的实验室正在开发由人工智能（AI）赋能的下一代RNA合成生物学平台。通过整合大规模计算建模、结构预测、高通量筛选和生物计算策略，我们旨在设计可编程的功能性RNA和合成调节回路...
+        align: left
+        background:
+          image:
+            filename: coders.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#1E3A66'
+        link:
+          icon: book-open
+          icon_pack: fas
+          text: 了解更多
+          url: ../research/ai-rna/
+
+      # ============ Slide 5: Join Us (with CTA button) ============
       - title: 加入我们
         content: |
           我们欢迎对 RNA 生物学和结构机制感兴趣的优秀研究生、博士后和本科生加入。

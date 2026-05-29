@@ -1,7 +1,7 @@
 ---
-title: "Congratulations to Postdoc Nanjing on JBC Publication!"
+title: "Congratulations to Associate Researcher Nanjing on JBC Publication!"
 subtitle: ""
-summary: "Our lab's postdoc, Nanjing, has published a research article in the Journal of Biological Chemistry (JBC) exploring the structural basis of glucosinolate recognition and polyspecific transport by AtGTR1."
+summary: "Our lab's associate researcher, Nanjing, has published a research article in the Journal of Biological Chemistry (JBC) exploring the structural basis of glucosinolate recognition and polyspecific transport by AtGTR1."
 authors: []
 tags: ["Publication", "News", "Structural Biology"]
 categories: ["News"]
@@ -18,6 +18,6 @@ image:
 projects: []
 ---
 
-We are thrilled to announce that our postdoc, **Nanjing**, has successfully published a new research paper in the **Journal of Biological Chemistry (JBC)**. 
+We are thrilled to announce that our associate researcher, **Nanjing**, has successfully published a new research paper in the **Journal of Biological Chemistry (JBC)**. 
 
 The study, titled *"Structural basis of glucosinolate recognition and polyspecific transport by AtGTR1"*, provides significant insights into how proteins recognize specific nutrients and coordinate their transport. Congratulations to Nanjing and the entire team involved in this achievement!
