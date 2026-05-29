@@ -19,11 +19,11 @@ sections:
           position: center
           color: '#0B2545'
 
-      # ============ Slide 2: Research Focus ============
-      - title: How Proteins Read the Language of RNA
+      # ============ Slide 2: Mechanisms ============
+      - title: "**Research Direction 1**"
         content: |
-          We combine cryo-EM, biochemistry, and cellular assays to dissect how
-          RNA-binding proteins recognize specific transcripts and shape gene expression.
+          <span style="font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px;">Mechanisms of RNA Post-Transcriptional Homeostasis</span>
+          Our laboratory is dedicated to understanding the fundamental mechanisms governing RNA post-transcriptional regulation and cellular homeostasis. We focus on the dynamic regulation of RNA processing, modification, degradation, and translation...
         align: left
         background:
           image:
@@ -32,22 +32,51 @@ sections:
               brightness: 0.35
           position: center
           color: '#1E3A66'
+        link:
+          icon: book-open
+          icon_pack: fas
+          text: Read More
+          url: ../research/rna-homeostasis/
 
-      # ============ Slide 3: Lab Culture ============
-      - title: A Collaborative Scientific Community
+      # ============ Slide 3: Immunity ============
+      - title: "**Research Direction 2**"
         content: |
-          We value curiosity, rigor, and mentorship — bringing together students,
-          postdocs, and visiting scholars from biology, chemistry, and computation.
+          <span style="font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px;">RNA Homeostasis and Immunity</span>
+          We are particularly interested in the roles of RNA homeostasis in innate immunity and inflammatory responses, with an emphasis on host recognition and regulation of viral RNAs during infection. Our research focuses on interferon-stimulated genes (ISGs), RNA sensing pathways...
         align: right
         background:
           image:
-            filename: contact.jpg
+            filename: coders.jpg
             filters:
               brightness: 0.5
           position: center
           color: '#3D4A6B'
+        link:
+          icon: book-open
+          icon_pack: fas
+          text: Read More
+          url: ../research/rna-immunity/
 
-      # ============ Slide 4: Join Us (with CTA button) ============
+      # ============ Slide 4: AI ============
+      - title: "**Research Direction 3**"
+        content: |
+          <span style="font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px;">AI-Driven RNA Synthetic Biology</span>
+          Our laboratory is developing next-generation RNA synthetic biology platforms empowered by artificial intelligence (AI). By integrating large-scale computational modeling, structural prediction, high-throughput screening, and biological computing strategies...
+        align: left
+        background:
+          image:
+            filename: coders.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#1E3A66'
+        link:
+          icon: book-open
+          icon_pack: fas
+          text: Read More
+          url: ../research/ai-rna/
+
+      # ============ Slide 5: Join Us (with CTA button) ============
       - title: Join the Lab
         content: |
           We welcome motivated graduate students, postdoctoral fellows, and undergraduates
