@@ -20,8 +20,9 @@ sections:
           color: '#0B2545'
 
       # ============ Slide 2: Mechanisms ============
-      - title: Mechanisms of RNA Post-Transcriptional Homeostasis
+      - title: "**Research Direction 1**"
         content: |
+          <span style="font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px;">Mechanisms of RNA Post-Transcriptional Homeostasis</span>
           Our laboratory is dedicated to understanding the fundamental mechanisms governing RNA post-transcriptional regulation and cellular homeostasis. We focus on the dynamic regulation of RNA processing, modification, degradation, and translation...
         align: left
         background:
@@ -38,8 +39,9 @@ sections:
           url: ../research/rna-homeostasis/
 
       # ============ Slide 3: Immunity ============
-      - title: RNA Homeostasis and Immunity
+      - title: "**Research Direction 2**"
         content: |
+          <span style="font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px;">RNA Homeostasis and Immunity</span>
           We are particularly interested in the roles of RNA homeostasis in innate immunity and inflammatory responses, with an emphasis on host recognition and regulation of viral RNAs during infection. Our research focuses on interferon-stimulated genes (ISGs), RNA sensing pathways...
         align: right
         background:
@@ -56,8 +58,9 @@ sections:
           url: ../research/rna-immunity/
 
       # ============ Slide 4: AI ============
-      - title: AI-Driven RNA Synthetic Biology
+      - title: "**Research Direction 3**"
         content: |
+          <span style="font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px;">AI-Driven RNA Synthetic Biology</span>
           Our laboratory is developing next-generation RNA synthetic biology platforms empowered by artificial intelligence (AI). By integrating large-scale computational modeling, structural prediction, high-throughput screening, and biological computing strategies...
         align: left
         background:

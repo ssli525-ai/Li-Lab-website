@@ -20,8 +20,9 @@ sections:
           color: '#0B2545'
 
       # ============ Slide 2: Mechanisms ============
-      - title: RNA转录后稳态机制
+      - title: "**研究方向一**"
         content: |
+          <span style="font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px;">RNA转录后稳态机制</span>
           我们的实验室致力于理解控制RNA转录后调节和细胞稳态的基本机制。我们专注于RNA加工、修饰、降解和翻译的动态调节，并研究这些过程如何在生理和应激条件下协调以维持细胞功能...
         align: left
         background:
@@ -38,8 +39,9 @@ sections:
           url: ../research/rna-homeostasis/
 
       # ============ Slide 3: Immunity ============
-      - title: RNA稳态与免疫
+      - title: "**研究方向二**"
         content: |
+          <span style="font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px;">RNA稳态与免疫</span>
           我们对RNA稳态在先天免疫和炎症反应中的作用特别感兴趣，重点是感染期间宿主对病毒RNA的识别和调节。我们的研究重点是干扰素刺激基因（ISGs）、RNA感知途径以及抗病毒免疫反应背后的结构机制...
         align: right
         background:
@@ -56,8 +58,9 @@ sections:
           url: ../research/rna-immunity/
 
       # ============ Slide 4: AI ============
-      - title: AI驱动的RNA合成生物学
+      - title: "**研究方向三**"
         content: |
+          <span style="font-size: 1.5rem; font-weight: bold; display: block; margin-bottom: 15px;">AI驱动的RNA合成生物学</span>
           我们的实验室正在开发由人工智能（AI）赋能的下一代RNA合成生物学平台。通过整合大规模计算建模、结构预测、高通量筛选和生物计算策略，我们旨在设计可编程的功能性RNA和合成调节回路...
         align: left
         background:
