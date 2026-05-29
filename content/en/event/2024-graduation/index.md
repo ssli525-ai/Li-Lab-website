@@ -15,4 +15,4 @@ image:
   caption: ""
   focal_point: ""
 ---
-Congratulations to our 2024 graduates! We are incredibly proud of your accomplishments and wish you all the best in your future endeavors.
+Congratulations to our 2024 graduates Jiali Wei and Ting Shi! We are incredibly proud of your accomplishments and wish you all the best in your future endeavors.

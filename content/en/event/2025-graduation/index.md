@@ -15,4 +15,4 @@ image:
   caption: ""
   focal_point: ""
 ---
-A wonderful celebration for our 2025 graduates. We honor their dedication and significant research findings in the field of RNA homeostasis.
+A wonderful celebration for our 2025 graduates Yangying Chen and Jiayin Li. 
