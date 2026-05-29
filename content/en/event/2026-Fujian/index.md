@@ -5,9 +5,9 @@ event_url: ""
 location: "Fuzhou"
 summary: Attending the Opening Ceremony of the Cryo-EM Center at Fujian Agriculture and Forestry University
 abstract: ""
-date: '2026-1-20T14:00:00Z'
+date: '2026-01-20T14:00:00Z'
 all_day: true
-publishDate: '2026-1-20T00:00:00Z'
+publishDate: '2026-01-20T00:00:00Z'
 authors: []
 tags: [Academic Activity]
 featured: false
